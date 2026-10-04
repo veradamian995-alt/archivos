@@ -66,7 +66,7 @@ def eje4():
 def eje5():
     import csv
 
-    archivo = open("cotización.csv", "r", encoding="utf-8")
+    archivo = open("cotizaciónes.csv", "r", encoding="utf-8")
 
     lector = csv.DictReader(archivo, delimiter=";")
 
