@@ -1,4 +1,4 @@
-def eje1():
+def eje1():aa
     n = int(input("ingrese un numero entre 1 y 10: "))
 
     archivo = open("tabla-" + str(n) + ".txt", "w")
